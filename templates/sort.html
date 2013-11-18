@@ -1,0 +1,18 @@
+<div style="height: 500px; width: 550px; overflow: scroll;">
+
+
+<table class = "table">
+    <tr>
+        <th>{{type}}</th>
+        <th>Occurences</th>
+    </tr>
+    {% for k in test %}
+        <tr>
+            <td>{{k[0].lower()}}</td>
+            <td>{{k[1]}}</td>
+        </tr>
+    {% endfor %}
+</table>
+
+</div>
+
